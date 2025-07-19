@@ -44,6 +44,7 @@ export const artwork = defineType({
           {title: 'Drawing', value: 'drawing'},
           {title: 'Sculpture', value: 'sculpture'},
           {title: 'Photography', value: 'photography'},
+          {title: 'Video', value: 'video'},
           {title: 'Digital Art', value: 'digital'},
           {title: 'Mixed Media', value: 'mixed-media'},
           {title: 'Installation', value: 'installation'},
