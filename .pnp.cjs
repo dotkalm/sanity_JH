@@ -28,6 +28,7 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@sanity/client", "npm:7.8.0"],\
           ["@sanity/eslint-config-studio", "virtual:8122f2ed1392e61797e7e0d0267bc294a34d00094023de55ca0341a3b323f7d71eacc1af6e0a1bcecf61d2a787a12c45ca7d82c6c954329ca0d87b89a01d833a#npm:5.0.2"],\
           ["@sanity/vision", "virtual:8122f2ed1392e61797e7e0d0267bc294a34d00094023de55ca0341a3b323f7d71eacc1af6e0a1bcecf61d2a787a12c45ca7d82c6c954329ca0d87b89a01d833a#npm:4.0.1"],\
           ["@types/node", "npm:24.0.15"],\
@@ -11002,6 +11003,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:.", {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@sanity/client", "npm:7.8.0"],\
           ["@sanity/eslint-config-studio", "virtual:8122f2ed1392e61797e7e0d0267bc294a34d00094023de55ca0341a3b323f7d71eacc1af6e0a1bcecf61d2a787a12c45ca7d82c6c954329ca0d87b89a01d833a#npm:5.0.2"],\
           ["@sanity/vision", "virtual:8122f2ed1392e61797e7e0d0267bc294a34d00094023de55ca0341a3b323f7d71eacc1af6e0a1bcecf61d2a787a12c45ca7d82c6c954329ca0d87b89a01d833a#npm:4.0.1"],\
           ["@types/node", "npm:24.0.15"],\

@@ -35,6 +35,25 @@ export const artwork = defineType({
       validation: (Rule) => Rule.required(),
     },
     {
+      name: 'category',
+      title: 'Category',
+      type: 'string',
+      options: {
+        list: [
+          {title: 'Painting', value: 'painting'},
+          {title: 'Drawing', value: 'drawing'},
+          {title: 'Sculpture', value: 'sculpture'},
+          {title: 'Photography', value: 'photography'},
+          {title: 'Digital Art', value: 'digital'},
+          {title: 'Mixed Media', value: 'mixed-media'},
+          {title: 'Installation', value: 'installation'},
+          {title: 'Other', value: 'other'},
+        ],
+      },
+      validation: (Rule) => Rule.required(),
+      initialValue: 'painting',
+    },
+    {
       name: 'meduium',
       title: 'Medium (Legacy)',
       type: 'string',
