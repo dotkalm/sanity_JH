@@ -12,6 +12,16 @@ export const artwork = defineType({
       validation: (Rule) => Rule.required(),
     },
     {
+      name: 'slug',
+      title: 'Slug',
+      type: 'slug',
+      options: {
+        source: 'title',
+        maxLength: 96,
+      },
+      validation: (Rule) => Rule.required(),
+    },
+    {
       name: 'year',
       title: 'Year',
       type: 'number',
@@ -25,10 +35,38 @@ export const artwork = defineType({
       validation: (Rule) => Rule.required(),
     },
     {
+      name: 'meduium',
+      title: 'Medium (Legacy)',
+      type: 'string',
+      description: 'Legacy field - use Medium instead',
+      hidden: true,
+    },
+    {
       name: 'description',
       title: 'Description',
       type: 'text',
       rows: 4,
+    },
+    {
+      name: 'mainImage',
+      title: 'Main Image',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+      fields: [
+        {
+          name: 'alt',
+          type: 'string',
+          title: 'Alternative text',
+          description: 'Important for SEO and accessibility.',
+        },
+        {
+          name: 'caption',
+          type: 'string',
+          title: 'Caption',
+        },
+      ],
     },
     {
       name: 'assets',
@@ -140,18 +178,6 @@ export const artwork = defineType({
       title: 'Dimensions',
       type: 'string',
       description: 'e.g., 24" x 36", 60cm x 90cm',
-    },
-    {
-      name: 'price',
-      title: 'Price',
-      type: 'string',
-      description: 'Leave empty if not for sale',
-    },
-    {
-      name: 'available',
-      title: 'Available for Purchase',
-      type: 'boolean',
-      initialValue: true,
     },
     {
       name: 'featured',
