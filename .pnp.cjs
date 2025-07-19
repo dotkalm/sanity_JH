@@ -31,11 +31,13 @@ const RAW_RUNTIME_STATE =
           ["@sanity/eslint-config-studio", "virtual:8122f2ed1392e61797e7e0d0267bc294a34d00094023de55ca0341a3b323f7d71eacc1af6e0a1bcecf61d2a787a12c45ca7d82c6c954329ca0d87b89a01d833a#npm:5.0.2"],\
           ["@sanity/vision", "virtual:8122f2ed1392e61797e7e0d0267bc294a34d00094023de55ca0341a3b323f7d71eacc1af6e0a1bcecf61d2a787a12c45ca7d82c6c954329ca0d87b89a01d833a#npm:4.0.1"],\
           ["@types/react", "npm:19.1.8"],\
+          ["@types/react-is", "npm:19.0.0"],\
           ["eslint", "virtual:8122f2ed1392e61797e7e0d0267bc294a34d00094023de55ca0341a3b323f7d71eacc1af6e0a1bcecf61d2a787a12c45ca7d82c6c954329ca0d87b89a01d833a#npm:9.31.0"],\
           ["joelholmbergdotcom", "workspace:."],\
           ["prettier", "npm:3.6.2"],\
           ["react", "npm:19.1.0"],\
           ["react-dom", "virtual:8122f2ed1392e61797e7e0d0267bc294a34d00094023de55ca0341a3b323f7d71eacc1af6e0a1bcecf61d2a787a12c45ca7d82c6c954329ca0d87b89a01d833a#npm:19.1.0"],\
+          ["react-is", "npm:19.1.0"],\
           ["sanity", "virtual:8122f2ed1392e61797e7e0d0267bc294a34d00094023de55ca0341a3b323f7d71eacc1af6e0a1bcecf61d2a787a12c45ca7d82c6c954329ca0d87b89a01d833a#npm:4.0.1"],\
           ["styled-components", "virtual:8122f2ed1392e61797e7e0d0267bc294a34d00094023de55ca0341a3b323f7d71eacc1af6e0a1bcecf61d2a787a12c45ca7d82c6c954329ca0d87b89a01d833a#npm:6.1.19"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
@@ -11002,11 +11004,13 @@ const RAW_RUNTIME_STATE =
           ["@sanity/eslint-config-studio", "virtual:8122f2ed1392e61797e7e0d0267bc294a34d00094023de55ca0341a3b323f7d71eacc1af6e0a1bcecf61d2a787a12c45ca7d82c6c954329ca0d87b89a01d833a#npm:5.0.2"],\
           ["@sanity/vision", "virtual:8122f2ed1392e61797e7e0d0267bc294a34d00094023de55ca0341a3b323f7d71eacc1af6e0a1bcecf61d2a787a12c45ca7d82c6c954329ca0d87b89a01d833a#npm:4.0.1"],\
           ["@types/react", "npm:19.1.8"],\
+          ["@types/react-is", "npm:19.0.0"],\
           ["eslint", "virtual:8122f2ed1392e61797e7e0d0267bc294a34d00094023de55ca0341a3b323f7d71eacc1af6e0a1bcecf61d2a787a12c45ca7d82c6c954329ca0d87b89a01d833a#npm:9.31.0"],\
           ["joelholmbergdotcom", "workspace:."],\
           ["prettier", "npm:3.6.2"],\
           ["react", "npm:19.1.0"],\
           ["react-dom", "virtual:8122f2ed1392e61797e7e0d0267bc294a34d00094023de55ca0341a3b323f7d71eacc1af6e0a1bcecf61d2a787a12c45ca7d82c6c954329ca0d87b89a01d833a#npm:19.1.0"],\
+          ["react-is", "npm:19.1.0"],\
           ["sanity", "virtual:8122f2ed1392e61797e7e0d0267bc294a34d00094023de55ca0341a3b323f7d71eacc1af6e0a1bcecf61d2a787a12c45ca7d82c6c954329ca0d87b89a01d833a#npm:4.0.1"],\
           ["styled-components", "virtual:8122f2ed1392e61797e7e0d0267bc294a34d00094023de55ca0341a3b323f7d71eacc1af6e0a1bcecf61d2a787a12c45ca7d82c6c954329ca0d87b89a01d833a#npm:6.1.19"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
@@ -13263,6 +13267,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/react-is-npm-18.3.1-370a81e1e9-10c0.zip/node_modules/react-is/",\
         "packageDependencies": [\
           ["react-is", "npm:18.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:19.1.0", {\
+        "packageLocation": "../../.yarn/berry/cache/react-is-npm-19.1.0-969a96b5b0-10c0.zip/node_modules/react-is/",\
+        "packageDependencies": [\
+          ["react-is", "npm:19.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
