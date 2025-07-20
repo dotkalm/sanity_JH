@@ -8,7 +8,7 @@
     "shared"
   ],
   "scripts": {
-    "dev": "yarn workspace @joel-portfolio/studio dev",
+    "dev": "yarn workspace studio dev",
     "dev:studio": "yarn workspace studio dev",
     "dev:frontend": "yarn workspace frontend dev",
     "build": "yarn workspaces foreach run build",

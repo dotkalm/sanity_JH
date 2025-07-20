@@ -1,0 +1,18 @@
+{
+  "name": "@joel-portfolio/frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "React frontend for Joel Holmberg Portfolio",
+  "scripts": {
+    "dev": "echo 'Frontend not created yet. Run: npx create-next-app@latest . or npx create-vite@latest . --template react-ts'",
+    "build": "echo 'Frontend not created yet'",
+    "clean": "rm -rf dist .next out"
+  },
+  "dependencies": {
+    "@joel-portfolio/shared": "workspace:*"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "typescript": "^5.8.3"
+  }
+}

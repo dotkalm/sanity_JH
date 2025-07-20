@@ -55,13 +55,6 @@ export const artwork = defineType({
       initialValue: 'painting',
     },
     {
-      name: 'meduium',
-      title: 'Medium (Legacy)',
-      type: 'string',
-      description: 'Legacy field - use Medium instead',
-      hidden: true,
-    },
-    {
       name: 'description',
       title: 'Description',
       type: 'text',
@@ -93,103 +86,9 @@ export const artwork = defineType({
       title: 'Assets',
       type: 'array',
       of: [
-        {
-          type: 'image',
-          options: {
-            hotspot: true,
-          },
-          fields: [
-            {
-              name: 'alt',
-              type: 'string',
-              title: 'Alternative text',
-              description: 'Important for SEO and accessibility.',
-            },
-            {
-              name: 'caption',
-              type: 'string',
-              title: 'Caption',
-            },
-          ],
-        },
-        {
-          type: 'object',
-          name: 'videoAsset',
-          title: 'Video File',
-          fields: [
-            {
-              name: 'file',
-              type: 'file',
-              title: 'Video File',
-              options: {
-                accept: 'video/*',
-              },
-            },
-            {
-              name: 'title',
-              type: 'string',
-              title: 'Video Title',
-            },
-            {
-              name: 'description',
-              type: 'text',
-              title: 'Video Description',
-            },
-          ],
-          preview: {
-            select: {
-              title: 'title',
-              subtitle: 'description',
-            },
-            prepare(selection) {
-              const {title, subtitle} = selection
-              return {
-                title: title || 'Video',
-                subtitle: subtitle || 'Video file',
-                media: () => '🎬',
-              }
-            },
-          },
-        },
-        {
-          type: 'object',
-          name: 'audioAsset',
-          title: 'Audio File',
-          fields: [
-            {
-              name: 'file',
-              type: 'file',
-              title: 'Audio File',
-              options: {
-                accept: 'audio/*',
-              },
-            },
-            {
-              name: 'title',
-              type: 'string',
-              title: 'Audio Title',
-            },
-            {
-              name: 'description',
-              type: 'text',
-              title: 'Audio Description',
-            },
-          ],
-          preview: {
-            select: {
-              title: 'title',
-              subtitle: 'description',
-            },
-            prepare(selection) {
-              const {title, subtitle} = selection
-              return {
-                title: title || 'Audio',
-                subtitle: subtitle || 'Audio file',
-                media: () => '🎵',
-              }
-            },
-          },
-        },
+        {type: 'artworkImage'},
+        {type: 'videoAsset'},
+        {type: 'audioAsset'},
       ],
       validation: (Rule) => Rule.required().min(1),
     },
