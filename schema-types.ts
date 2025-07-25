@@ -1,6 +1,6 @@
 // Sanity Schema Types for Frontend
 // Generated from Sanity Studio schemas
-// Project ID: y8r70112
+// Project ID: zflu9f6c
 
 // Base Sanity Document
 export interface SanityDocument {
@@ -282,7 +282,7 @@ export const GROQ_QUERIES = {
 
 // Sanity Client Configuration
 export const SANITY_CONFIG = {
-  projectId: 'y8r70112',
+  projectId: 'zflu9f6c',
   dataset: 'production',
   apiVersion: '2024-07-19',
   useCdn: true // Use CDN for production

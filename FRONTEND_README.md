@@ -60,7 +60,9 @@ const imageUrl = urlFor(artwork.mainImage).width(800).height(600).url()
 
 ## Project Configuration
 
-- **Project ID:** `y8r70112`
+### Configuration
+
+- **Project ID:** `zflu9f6c`
 - **Dataset:** `production`
 - **API Version:** `2024-07-19`
 

@@ -5,7 +5,7 @@ const path = require('path')
 
 // Initialize Sanity client
 const client = createClient({
-  projectId: 'y8r70112',
+  projectId: 'zflu9f6c',
   dataset: 'production',
   useCdn: false,
   apiVersion: '2024-07-19',

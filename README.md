@@ -57,7 +57,9 @@ npx create-next-app@latest . --typescript --tailwind
 ```
 
 ## 🗄 Sanity Project
-- **Project ID:** `y8r70112`
+### Configuration
+
+- **Project ID:** `zflu9f6c`
 - **Dataset:** `production`
 - **Studio URL:** http://localhost:3333
 
