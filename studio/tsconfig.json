@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "baseUrl": ".",
+    "paths": {
+      "@joel-portfolio/shared": ["../shared/src"]
+    }
+  },
+  "include": ["sanity.config.ts", "sanity.cli.ts", "schemaTypes", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", "dist"]
+}
