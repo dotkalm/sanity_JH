@@ -8,19 +8,19 @@
     "shared"
   ],
   "scripts": {
-    "dev": "concurrently \"yarn workspace frontend dev\" \"yarn workspace studio dev\"",
-    "dev:studio": "yarn workspace studio dev",
-    "dev:frontend": "yarn workspace frontend dev",
+    "dev": "concurrently \"yarn workspace @joel-portfolio/frontend dev\" \"yarn workspace @joel-portfolio/studio dev\"",
+    "dev:studio": "yarn workspace @joel-portfolio/studio dev",
+    "dev:frontend": "yarn workspace @joel-portfolio/frontend dev",
     "build": "yarn workspaces foreach run build",
     "build:studio": "yarn workspace studio build",
     "build:frontend": "yarn workspace frontend build",
     "deploy-graphql": "yarn workspace studio deploy-graphql",
     "import:artworks": "yarn workspace studio import:artworks",
     "clean": "yarn workspaces foreach run clean",
-    "workspaces:list": "yarn workspaces list --json",
-    "postinstall": "yarn workspaces foreach run build"
+    "workspaces:list": "yarn workspaces list --json"
   },
   "devDependencies": {
-    "concurrently": "^8.2.1"
+    "concurrently": "^8.2.1",
+    "typescript": "^5.8.3"
   }
 }

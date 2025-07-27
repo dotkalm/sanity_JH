@@ -3,11 +3,29 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@joel-portfolio/shared": ["../shared/src"]
-    }
+      "@joel-portfolio/shared": [
+        "../shared/src"
+      ]
+    },
+    "allowJs": true,
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
-  "include": ["**/*.ts", "**/*.tsx"],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
   "references": [
-    { "path": "../shared" }
+    {
+      "path": "../shared"
+    }
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }
